@@ -1,4 +1,4 @@
-.App {
+/* .App {
   text-align: center;
 }
 
@@ -35,4 +35,241 @@
   to {
     transform: rotate(360deg);
   }
+} */
+:root {
+  color-scheme: dark;
 }
+.title {
+  /* font-size: large; */
+  flex: 1;
+  color: #ffd700;
+  font-family: "Archivo" !important;
+  cursor: pointer;
+  font-weight: bold;
+  /* font-size: 1vw !im; */
+}
+
+.banner{
+  background-image: url('./assets/bgbg.jpg');
+  /* background-image: url('./assets/ww.gif'); */
+  background-size: cover;
+  /* backg */
+  
+}
+
+.bannerCont{
+  display: flex;
+  height: 450px;
+  flex-direction: column;
+  padding-top: 25;
+  justify-content: space-around;
+}
+
+.tagline{
+  font-weight: bold;
+  font-size: 3em;
+  padding-top: 40px;
+  letter-spacing: 1px;
+  /* font-stretch:wider; */
+  margin-bottom: 0px;
+  text-align: center;
+  /* justify-content: center; */
+}
+.theader:hover{
+  text-decoration: underline;
+  cursor: pointer;
+
+}
+.slogan{
+  color: #d4d4d4;
+}
+.ptpt{
+  font-family: 'Courier New', Courier, monospace;
+}
+.carousel{
+  height: 50%;
+  align-items: center;
+  display: flex;
+}
+
+.linki{
+  cursor: pointer;
+}
+
+
+
+
+
+
+
+
+* {
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+  box-sizing: border-box;
+  font-family: "Archivo", sans-serif;
+}
+.app{
+  background-color: #14161a;
+  color: white;
+  min-height: 100vh;
+}
+html{
+  background-color: #14161a;
+}
+
+a {
+  text-decoration: none;
+  color: gold;
+}
+
+/* .coinrow {
+         background-color: #16171a,
+         cursor: pointer,
+         "&:hover": {
+           backgroundColor: "#131111",
+         },
+         fontFamily: "Archivo",
+       },
+       pagination: {
+         "& .MuiPaginationItem-root": {
+           color: "gold",
+       }, */
+
+.coinrow{
+  background-color: #16171a;
+  cursor: pointer;
+  font-family: "Archivo", sans-serif;
+
+
+}
+.coinrow:hover{
+  background-color: #131111;
+}
+.pagination:MuiPaginationItem-root {
+  color: gold;
+
+}
+
+.thead{
+  font-family: "Archivo", sans-serif !important;
+}
+
+
+.containerr {
+  display: flex;
+  padding: 10px;
+  /* border: 2px solid red;
+  height: 100vh; */
+}
+
+@media (max-width: 960px) {
+  .containerr {
+    flex-direction: column;
+    align-items: center;
+    /* height: 100vh;
+    border: 2px solid red; */
+  }
+}
+
+.sidebar {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 25px;
+  margin: 20px;
+  border-right: 2px solid grey;
+}
+
+@media (max-width: 960px) {
+  .sidebar {
+    width: 100%;
+  }
+}
+
+.coinheading {
+  margin-bottom: 20px;
+  font-family: "Archivo" !important;
+  font-weight: bold !important;
+
+}
+
+.coindesc {
+  width: 100%;
+  font-family: "Archivo" !important;
+  padding: 25px;
+  padding-bottom: 15px;
+  padding-top: 0;
+  text-align: justify;
+}
+
+.marketData {
+  align-self: start;
+  padding: 25px;
+  padding-top: 10px;
+  width: 100%;
+}
+
+@media (max-width: 960px) {
+  .marketData {
+    display: flex;
+    justify-content: space-around;
+  }
+}
+
+@media (max-width: 600px) {
+  .marketData {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+@media (max-width: 480px) {
+  .marketData {
+    align-items: start;
+  }
+}
+
+.infocontainer {
+  width: 75%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 25px;
+  padding: 40px;
+}
+
+@media (max-width: 960px) {
+  .infocontainer {
+    width: 100%;
+    margin-top: 0;
+    padding: 20px;
+    padding-top: 0;
+  }
+}
+
+.selectbutton {
+  border: 1px solid gold;
+  border-radius: 5px;
+  padding: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-family: "Archivo";
+  cursor: pointer;
+  background-color: transparent;
+  color: white;
+  font-weight: 700;
+  width: 22%;
+  transition: ease .3s;
+}
+
+.selectbutton:hover {
+  background-color: white;
+  border: 1px solid white;
+  color: black;
+}
+
+
