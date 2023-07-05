@@ -20,7 +20,7 @@ function App() {
 
   return (
     <BrowserRouter>
-      <div className="app">
+      <div className="app ok">
         <Header></Header>
         {/* <Routes> */}
         <Route path="/" component={Home} exact />
